@@ -1,0 +1,26 @@
+body{
+    background: silver;
+}
+#header{
+    padding: 20px;
+    background: bisque;
+}
+#content{
+    background: #fff;
+    padding: 20px;
+}
+#footer{
+    background: bisque;
+    padding: 20px;    
+}
+h1, h2, h3 {
+	margin: 0em;
+	padding: 0em;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+a {
+	color: darkgrey;
+}
+
+
