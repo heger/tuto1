@@ -48,13 +48,13 @@
                 <ul class="slides">
                     
                         <li>
-                            <img  src= "<?php echo URL; ?>public/images/Bourse1.jpg"/>
+                            <img  src= "../public/images/Bourse1.jpg"/>
                         </li>
 			<li>
-                             <img  src= "<?php echo URL; ?>public/images/bourse2.jpg"/>
+                             <img  src= "../public/images/bourse2.jpg"/>
                         </li>                   
 			<li>
-                            <img  src= "<?php echo URL; ?>public/images/bourse.jpg"/>
+                            <img  src= "../public/images/bourse.jpg"/>
                         </li>                   
                 </ul>
             </div>
@@ -63,18 +63,18 @@
   <div class="navbar-inner">-->
         <ul class="nav nav-pills">
         <?php if (Session::get('loggedIn') == false){ ?>
-            <li class="active"> <a href="<?php echo URL; ?>index">Index</a></li>
-            <li class="active"> <a href="<?php echo URL; ?>help">Help</a></li>
+            <li class="active"> <a href="../index">Index</a></li>
+            <li class="active"> <a href="../help">Help</a></li>
         <?php } ?>
         <?php if (Session::get('loggedIn') == true){ ?>
-            <li class="active"><a href="<?php echo URL; ?>Dashboard">Dashboard</a></li>
+            <li class="active"><a href="../Dashboard">Dashboard</a></li>
         <?php if (Session::get('role') == 'owner'){ ?>
-            <li class="active"><a href="<?php echo URL; ?>user">Users</a></li>
+            <li class="active"><a href="../user">Users</a></li>
         <?php } ?>
         
-            <li class="active"> <a href="<?php echo URL; ?>Dashboard/logout">LogOut</a></li>
+            <li class="active"> <a href="../Dashboard/logout">LogOut</a></li>
         <?php }else{ ?>
-            <li class="active"> <a href="<?php echo URL; ?>login">Login</a></li>
+            <li class="active"> <a href="../login">Login</a></li>
         <?php } ?>
         </ul>
         </div>
