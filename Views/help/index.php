@@ -1,25 +1,19 @@
-
-
-
-
-
-
 <html>
 <head>
     <title>Porte Feuille</title>
-    <link rel="stylesheet" href="../public/css/default.css">
-    <link rel="stylesheet" href="../public/css/flexslider.css">
-    <link rel="stylesheet" href="../public/css/bootstrap.css">
-    <link rel="stylesheet" href="../public/css/validationForm.css">
-    <script type="text/javascript" src="../public/js/jquery.js"></script>
-    <script type="text/javascript" src="../public/js/jquery-ui.js"></script>
-    <script type="text/javascript" src="../public/js/modernizr.custom.21718.js"></script>
-     <script type="text/javascript" src="../public/js/jqueryMigrate.js"></script>
-    <script type="text/javascript" src="../public/js/custom.js"></script>
-    <script type="text/javascript" src="../public/js/jquery_flexslider-min.js"></script>
-    <script type="text/javascript" src="../public/js/picnet.table.filter.min.js"></script>
-    <script type="text/javascript" src="../public/js/JqueryValidate.js"></script>
-    <script type="text/javascript" src="../public/js/LiveValidation.js"></script>
+    <link rel="stylesheet" href="../../public/css/default.css">
+    <link rel="stylesheet" href="../../public/css/flexslider.css">
+    <link rel="stylesheet" href="../../public/css/bootstrap.css">
+    <link rel="stylesheet" href="../../public/css/validationForm.css">
+    <script type="text/javascript" src="../../public/js/jquery.js"></script>
+    <script type="text/javascript" src="../../public/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../public/js/modernizr.custom.21718.js"></script>
+     <script type="text/javascript" src="../../public/js/jqueryMigrate.js"></script>
+    <script type="text/javascript" src="../../public/js/custom.js"></script>
+    <script type="text/javascript" src="../../public/js/jquery_flexslider-min.js"></script>
+    <script type="text/javascript" src="../../public/js/picnet.table.filter.min.js"></script>
+    <script type="text/javascript" src="../../public/js/JqueryValidate.js"></script>
+    <script type="text/javascript" src="../../public/js/LiveValidation.js"></script>
     <script type="text/javascript">
         function imprimer()
         {
@@ -56,13 +50,13 @@
 
                         <li>
 
-                            <img  src= "../public/images/Bourse1.jpg"/>
+                            <img  src= "../../public/images/Bourse1.jpg"/>
                         </li>
 			<li>
-                             <img  src= "../public/images/bourse2.jpg"/>
+                             <img  src= "../../public/images/bourse2.jpg"/>
                         </li>                   
 			<li>
-                            <img  src= "../public/images/bourse.jpg"/>
+                            <img  src= "../../public/images/bourse.jpg"/>
                         </li>                   
                 </ul>
             </div>
