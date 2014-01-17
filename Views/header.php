@@ -66,7 +66,7 @@
         <ul class="nav nav-pills">
         <?php if (Session::get('loggedIn') == false){ ?>
             <li class="active"> <a href="../index">Index</a></li>
-            <li class="active"> <a href="/tuto1/Views/help/index">Help</a></li>
+            <li class="active"> <a href="../tuto1/Views/help/index">Help</a></li>
         <?php } ?>
         <?php if (Session::get('loggedIn') == true){ ?>
             <li class="active"><a href="../Dashboard">Dashboard</a></li>
@@ -78,7 +78,7 @@
         <?php }else{ ?>
             <li class="active"> <a href="../login">Login</a></li>
         <?php } ?>
-        </ul>
+        </ul>hegeromrane@gmail.co
         </div>
 <!--  </div>
 </div>-->
