@@ -5,7 +5,7 @@ class view {
         //echo 'this is the view<br>';
     }
     public function render($name, $noInclude=false){
-        if ($noInclude==false) 
+        if ($noInclude==true) 
         {
             require 'Views/'.$name.'.php';
         }
