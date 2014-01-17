@@ -78,7 +78,7 @@
         <?php }else{ ?>
             <li class="active"> <a href="/Views/login">Login</a></li>
         <?php } ?>
-        </ul>hegeromrane@gmail.co
+        </ul>
         </div>
 <!--  </div>
 </div>-->
