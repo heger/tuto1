@@ -5,15 +5,15 @@ class view {
         //echo 'this is the view<br>';
     }
     public function render($name, $noInclude=false){
-        if ($noInclude==true) 
+        if ($noInclude==false) 
         {
             require 'Views/'.$name.'.php';
         }
           else {  
         require 'Views/header.php';
-        require 'Views/'.$name.'/index.php';
+        require 'Views/'.$name.'.php';
         require 'Views/footer.php';
-    }
+    }
     }
 
 }
