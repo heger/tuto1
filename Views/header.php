@@ -66,7 +66,7 @@
         <ul class="nav nav-pills">
         <?php if (Session::get('loggedIn') == false){ ?>
             <li class="active"> <a href="/Views/index">Index</a></li>
-            <li class="active"> <a href="/Views/help">Help</a></li>
+            <li class="active"> <a href="/help">Help</a></li>
         <?php } ?>
         <?php if (Session::get('loggedIn') == true){ ?>
             <li class="active"><a href="../Dashboard">Dashboard</a></li>
