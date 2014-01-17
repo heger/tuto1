@@ -65,7 +65,7 @@
   <div class="navbar-inner">-->
         <ul class="nav nav-pills">
         <?php if (Session::get('loggedIn') == false){ ?>
-            <li class="active"> <a href="../index">Index</a></li>
+            <li class="active"> <a href="/Views/index">Index</a></li>
             <li class="active"> <a href="/Views/help">Help</a></li>
         <?php } ?>
         <?php if (Session::get('loggedIn') == true){ ?>
@@ -76,7 +76,7 @@
         
             <li class="active"> <a href="../Dashboard/logout">LogOut</a></li>
         <?php }else{ ?>
-            <li class="active"> <a href="../login">Login</a></li>
+            <li class="active"> <a href="/Views/login">Login</a></li>
         <?php } ?>
         </ul>hegeromrane@gmail.co
         </div>
