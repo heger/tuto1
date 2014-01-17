@@ -1,4 +1,4 @@
-<?php include '/Views/header.php'; ?>
+<?php include '../header.php'; ?>
 <center><h1>Help</h1>
 This is the help!!!
 </center>
