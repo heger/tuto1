@@ -1,9 +1,10 @@
 <?php 
 // on se connecte à MySQL 
-$db = mysql_connect('localhost', 'root', 'root'); 
+// $db = mysql_connect('localhost', 'root', 'root'); 
+$db = mysql_connect('us-cdbr-azure-west-b.cleardb.com', 'b119525fa9eb83', '3bfcb8af'); 
 
 // on sélectionne la base 
-mysql_select_db('mvc',$db); 
+mysql_select_db('appli1AQ9akV3UeM',$db); 
 
 // on crée la requête SQL 
 $sql = 'SELECT id,text FROM data'; 
