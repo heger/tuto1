@@ -3,9 +3,10 @@
 class Bootstrap {
 
     function __construct() {
-        $url = isset($_GET['url']) ? $_GET['url'] : null;
+        $url = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : null;
         $url = rtrim($url, '/');
         $url = explode('/', $url);
+        array_shift($url);
 
         //print_r($url);
         if (empty($url[0])){
