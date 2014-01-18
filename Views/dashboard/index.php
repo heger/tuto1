@@ -103,7 +103,7 @@ foreach ($this->valeurList as $key => $value)
         echo '<td>'.$var.' </td>'; 
         echo '<td>'.$value['capital'].'</td>'; 
         echo '<td>'.$value['idGroupe'].'</td>'; 
-        echo '<td> <a href="'.URL.'dashboard/delete/'.$value['code'].'">Delete</a>            <a href="'../dashboard/edit/'.$value['code'].'">Edit</a> </td>'; 
+        echo '<td> <a href="'.URL.'dashboard/delete/'.$value['code'].'">Delete</a>            <a href="'.URL.'dashboard/edit/'.$value['code'].'">Edit</a> </td>'; 
         echo '</tr>';
     }
 //print_r($this->userList);
