@@ -6,7 +6,7 @@
 ?>
 
 
-<form method="post" action="<?php echo URL; ?>dashboard/editSave/<?php echo $this->valeur['code']; ?>">
+<form method="post" action="/dashboard/editSave/<?php echo $this->valeur['code']; ?>">
         <table>
         <tr>
             <td width="33%"><label><h4>Libelle </h4></label></td>
