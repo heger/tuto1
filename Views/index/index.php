@@ -14,13 +14,13 @@
                 <ul class="slides">
                     
                         <li>
-                            <img  src= "<?php echo URL; ?>public/images/Bourse1.jpg" />
+                            <img  src= "../public/images/Bourse1.jpg" />
                         </li>
 			<li>
-                             <img  src= "<?php echo URL; ?>public/images/bourse2.jpg"/>
+                             <img  src= "../public/images/bourse2.jpg"/>
                         </li>                   
 			<li>
-                            <img  src= "<?php echo URL; ?>public/images/bourse.jpg"/>
+                            <img  src= "../public/images/bourse.jpg"/>
                         </li>                   
                 </ul>
  </div>
