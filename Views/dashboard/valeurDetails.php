@@ -1,6 +1,7 @@
 <center><h1>VALEUR DETAILS</h1></center>
 
 <?php
+/*
 error_reporting(E_ALL);
 require_once 'libs/simple_html_dom.php';
 //$html = new simple_html_dom();
@@ -34,6 +35,7 @@ foreach($html->find('table#tabQuotes tr ') as $row2) {
 $j=$j+1;
 }
 //print_r($dataNom);
+*/
 ?>
 
 <div class="container">
