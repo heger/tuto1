@@ -42,7 +42,7 @@
         <ul class="nav nav-pills"  id="header" > 
         <?php if (Session::get('loggedIn') == false){ ?>
             <li class="active"><a href="<?php echo URL; ?>index"> <img src= "<?php echo URL; ?>public/images/home.png" />&nbsp;&nbsp;Accueil</a></li>
-            <li class="active"><a href="<?php echo URL; ?>help"><img src= "<?php echo URL; ?>public/images/aide.png" />&nbsp;&nbsp;Aide</a></li>
+            <li class="active"><a href="/help"><img src= "../../public/images/aide.png" />&nbsp;&nbsp;Aide</a></li>
         <?php } ?>
         <?php if (Session::get('loggedIn') == true){ ?>
             <li class="active"><a href="<?php echo URL; ?>Dashboard"><img src= "<?php echo URL; ?>public/images/home.png" />&nbsp;Dashboard</a></li>
