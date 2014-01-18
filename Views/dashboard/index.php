@@ -6,7 +6,7 @@
 
 
 <!--
-<form method="post" action="<?php //echo URL; ?>user/create">
+<form method="post" action="/user/create">
         <table>
         <tr>
             <td><label>Login</label></td>
