@@ -6,7 +6,7 @@
 ?>
 
 
-<form method="post" action="<?php echo URL; ?>user/editSave/<?php echo $this->user['id']; ?>">
+<form method="post" action="/user/editSave/<?php echo $this->user['id']; ?>">
         <table>
         <tr>
             <td width="33%"><label><h4>Login</h4></label></td>

@@ -1,7 +1,7 @@
 <center><h1 style="color:#0088cc">Users</h1>
 
     <div class="container">
-<form method="post" action="<?php echo URL; ?>user/create">
+<form method="post" action="/user/create">
     <table>
         <tr>
             <td width="33%"><label><h4>Login</h4></label></td>
