@@ -38,7 +38,7 @@
 error_reporting(E_ALL);
 require_once 'libs/simple_html_dom.php';
 //$html = new simple_html_dom();
-$html = file_get_html(URL.'Views/dashboard/marche.php');
+$html = file_get_html('../../Views/dashboard/marche.php');
 $n=0;
 $dataVar = array();
 foreach($html->find('table#tabQuotes tr') as $row) {
