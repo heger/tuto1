@@ -1,6 +1,6 @@
 <center>
 
-<h1>Dashboard</h1>
+<h1  style="color:#0088cc">Dashboard</h1>
 <br />
 
 

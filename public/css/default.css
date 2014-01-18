@@ -1,17 +1,22 @@
 body{
     background: silver;
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial;
+	
 }
 #header{
-    padding: 20px;
-    background: bisque;
+    padding-top: 50px;
+    background: gold;
+	padding-left: 1000px;
+	position:relative;
+	top:-10px
 }
 #content{
     background: #fff;
     padding: 20px;
 }
 #footer{
-    background: bisque;
-    padding: 20px;    
+    background: gold;
+    padding: 60px;    
 }
 h1, h2, h3 {
 	margin: 0em;

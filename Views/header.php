@@ -27,61 +27,37 @@
         }
         }
     ?>
- <script type="text/javascript">
-            $(window).load(function() {
-            $('.flexslider').flexslider({
-            animation: Modernizr.touch ? "slide" : "fade",
-            slideshowSpeed: 6000,
-            animationSpeed: Modernizr.touch ? 2000 : 2000,
-            controlNav: false,
-            touch: true
-        });
-    });
-</script>
+ 
 </head>
 
-<body>
+<body style="background: #0088cc">
+  
     <?php Session::init(); ?>
    
-    <div id="header">
-         <div class="flexslider">
-                <ul class="slides">
-                    
+    <div>
+         
+     
 
-                        <li>
-
-                            <img  src= "../public/images/Bourse1.jpg"/>
-                        </li>
-			<li>
-                             <img  src= "../public/images/bourse2.jpg"/>
-                        </li>                   
-			<li>
-                            <img  src= "../public/images/bourse.jpg"/>
-                        </li>                   
-                </ul>
-            </div>
-       
-<!--<div class="navbar">
-  <div class="navbar-inner">-->
-        <ul class="nav nav-pills">
+  <!--<div class="navbar-inner">-->
+        <ul class="nav nav-pills"  id="header" > 
         <?php if (Session::get('loggedIn') == false){ ?>
-            <li class="active"> <a href="/index">Index</a></li>
-          <li class="active"> <a href="/help">Help</a></li>
+            <li class="active"><a href="<?php echo URL; ?>index"> <img src= "<?php echo URL; ?>public/images/home.png" />&nbsp;&nbsp;Accueil</a></li>
+            <li class="active"><a href="<?php echo URL; ?>help"><img src= "<?php echo URL; ?>public/images/aide.png" />&nbsp;&nbsp;Aide</a></li>
         <?php } ?>
         <?php if (Session::get('loggedIn') == true){ ?>
-            <li class="active"><a href="/Dashboard">Dashboard</a></li>
+            <li class="active"><a href="<?php echo URL; ?>Dashboard"><img src= "<?php echo URL; ?>public/images/home.png" />&nbsp;Dashboard</a></li>
         <?php if (Session::get('role') == 'owner'){ ?>
-            <li class="active"><a href="/user">Users</a></li>
+            <li class="active"><a href="<?php echo URL; ?>user"><img src= "<?php echo URL; ?>public/images/ico_login.gif" />&nbsp;&nbsp;Users</a></li>
         <?php } ?>
         
-            <li class="active"> <a href="/Dashboard/logout">LogOut</a></li>
+            <li class="active"> <a href="<?php echo URL; ?>Dashboard/logout"><img src= "<?php echo URL; ?>public/images/logout.png" />&nbsp;Logout</a></li> 
         <?php }else{ ?>
-            <li class="active"> <a href="/login">Login</a></li>
+            <li class="active"><a href="<?php echo URL; ?>login"><img src= "<?php echo URL; ?>public/images/ico_login.gif" />&nbsp;Connecter</a></li>
         <?php } ?>
         </ul>
         </div>
-<!--  </div>
-</div>-->
+
+<!--  </div>-->
     <div id="content">
 
 

@@ -2,23 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/wamp/www/Tuto1/libs/Session.php</file>
-            <file>file:/C:/wamp/www/Tuto1/Controllers/index.php</file>
-            <file>file:/C:/wamp/www/Tuto1/libs/Database.php</file>
-            <file>file:/C:/wamp/www/Tuto1/libs/Controller.php</file>
-            <file>file:/C:/wamp/www/Tuto1/libs/simple_html_dom.php</file>
-            <file>file:/C:/wamp/www/Tuto1/index.php</file>
-            <file>file:/C:/wamp/www/Tuto1/libs/Bootstrap.php</file>
-            <file>file:/C:/wamp/www/Tuto1/Controllers/dashboard.php</file>
-            <file>file:/C:/wamp/www/Tuto1/Models/user_model.php</file>
-            <file>file:/C:/wamp/www/Tuto1/libs/model.php</file>
-            <file>file:/C:/wamp/www/Tuto1/libs/view.php</file>
-            <file>file:/C:/wamp/www/Tuto1/Views/user/index.php</file>
-            <file>file:/C:/wamp/www/Tuto1/Views/index/index.php</file>
-            <file>file:/C:/wamp/www/Tuto1/Models/dashboard_model.php</file>
-            <file>file:/C:/wamp/www/Tuto1/Controllers/login.php</file>
-            <file>file:/C:/wamp/www/Tuto1/Controllers/user.php</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

@@ -1,17 +1,17 @@
-<center><h1>Users</h1>
+<center><h1 style="color:#0088cc">Users</h1>
 
     <div class="container">
 <form method="post" action="<?php echo URL; ?>user/create">
     <table>
         <tr>
-            <td><label>Login</label></td>
+            <td width="33%"><label><h4>Login</h4></label></td>
             <td><input type="text" name="login" id="login"><script type="text/javascript">
 	            var login = new LiveValidation('login',{ validMessage: 'valid syntax!', wait: 500 });
 	            login.add(Validate.Presence, {failureMessage: "Login Required"});
 	          </script></td>
         </tr>
         <tr>
-            <td><label>Password</label></td>
+            <td><label><h4>Password</h4></label></td>
             <td><input type="text" name="password" id="password"><script type="text/javascript">
 	            var password = new LiveValidation('password',{ validMessage: 'valid syntax!', wait: 500 });
 	            password.add(Validate.Presence, {failureMessage: "Password Required"});
@@ -19,7 +19,7 @@
         </tr>
         <tr>
         <tr>
-            <td><label>Nom</label></td>
+            <td><label><h4>Nom</h4></label></td>
             <td><input type="text" name="nom" id="nom"><script type="text/javascript">
 	            var nom = new LiveValidation('nom',{ validMessage: 'valid syntax!', wait: 500 });
 	            nom.add(Validate.Presence, {failureMessage: "Nom Required"});
@@ -27,14 +27,14 @@
         </tr>
         <tr>
         <tr>
-            <td><label>Prenom</label></td>
+            <td><label><h4>Prenom</h4></label></td>
             <td><input type="text" name="prenom" id="prenom"><script type="text/javascript">
 	            var prenom = new LiveValidation('prenom',{ validMessage: 'valid syntax!', wait: 500 });
 	            prenom.add(Validate.Presence, {failureMessage: "Prenom Required"});
 	          </script></td>
         </tr>
         <tr>
-            <td><label>Role</label></td>
+            <td><label><h4>Role</h4></label></td>
             <td><select name="role">
                 <option value="default">Default</option>
                 <option value="admin">Admin</option>
@@ -43,7 +43,7 @@
         </tr>
         <tr>
             <td><label>&nbsp;</label></td>
-            <td><input type="submit"></td>
+            <td><input type="submit" style="width:220px"></td>
         </tr>
         </table>
 
